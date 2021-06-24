@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_login_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_margin">
+
+    <Button
+        android:id="@+id/btn_searchLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_color_blue"
+        android:text="@string/search_line"
+        android:textSize="@dimen/subhead" />
+
+    <Button
+        android:id="@+id/btn_searchStation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:background="@drawable/bg_color_cyan"
+        android:text="@string/search_station"
+        android:textSize="@dimen/subhead" />
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_recommend"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/standard_margin"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="gone">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/search_recommend"-->
+    <!--android:textColor="@color/colorPrimary"-->
+    <!--android:textSize="@dimen/subhead" />-->
+
+    <!--<ListView-->
+    <!--android:id="@+id/lv_recommend"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_marginTop="@dimen/standard_padding"-->
+    <!--android:layout_weight="1" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_more"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_marginTop="@dimen/standard_padding"-->
+    <!--android:height="38dp"-->
+    <!--android:background="@drawable/bg_white_rectangle_green"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/search_more"-->
+    <!--android:textColor="@color/colorPrimary"-->
+    <!--android:textSize="@dimen/subhead" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

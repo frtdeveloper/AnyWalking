@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/standard_padding">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/standard_padding"
+        android:src="@drawable/ic_swap_calls_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/standard_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_searchContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="线路名"
+            android:textSize="@dimen/subhead" />
+
+        <TextView
+            android:id="@+id/tv_line_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_padding"
+            android:text="开往方向"
+            android:textSize="@dimen/body" />
+
+    </LinearLayout>
+</LinearLayout>

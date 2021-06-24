@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_margin">
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_navigation_type"
+        android:textSize="@dimen/subhead" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/standard_padding"-->
+    <!--android:text="@string/choose_navigation_type"-->
+    <!--android:textSize="@dimen/subhead" />-->
+
+    <Button
+        android:id="@+id/bt_emulator_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:background="@drawable/bg_color_indigo"
+        android:text="@string/emulator_navigation"
+        android:textSize="@dimen/subhead" />
+
+    <Button
+        android:id="@+id/bt_navigation_planning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:background="@drawable/bg_color_blue"
+        android:text="@string/emulator_navigation_planning"
+        android:textSize="@dimen/subhead" />
+
+    <Button
+        android:id="@+id/bt_gps_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:background="@drawable/bg_color_cyan"
+        android:text="@string/gps_navigation"
+        android:textSize="@dimen/subhead" />
+
+</LinearLayout>
+

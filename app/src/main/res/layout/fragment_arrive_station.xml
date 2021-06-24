@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_login_bg"
+    android:paddingTop="80dp">
+
+    <TextView
+        android:id="@+id/tv_arrive_station_no_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="没有到站提醒信息\n请先查询站台并设置到站提醒"
+        android:textSize="@dimen/subhead" />
+
+    <ListView
+        android:id="@+id/lv_arrive_station"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+</LinearLayout>

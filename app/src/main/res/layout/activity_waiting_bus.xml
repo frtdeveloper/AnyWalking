@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_margin">
+
+    <RelativeLayout
+        android:id="@+id/rl_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_color_white_corner"
+        android:padding="@dimen/standard_padding">
+
+        <TextView
+            android:id="@+id/tv_wait_bus_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="路线名"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title" />
+
+        <TextView
+            android:id="@+id/tv_wait_bus_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_wait_bus_name"
+            android:layout_marginTop="@dimen/standard_padding"
+            android:text="车辆信息"
+            android:textSize="@dimen/subhead" />
+
+    </RelativeLayout>
+
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/standard_margin"-->
+    <!--android:background="@color/white"-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="@dimen/standard_padding">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_watiInfo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="正在候车，请稍等"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/title" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_wifi"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/standard_padding"-->
+    <!--android:text="车辆信息"-->
+    <!--android:visibility="visible" />-->
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_wait_bus_device_connected"
+            android:layout_width="@dimen/sub_icon"
+            android:layout_height="@dimen/sub_icon"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/standard_margin"
+            android:background="@color/red"
+            android:contentDescription="设备未连接"
+            android:src="@drawable/ic_wifi_black_24dp" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_rssi"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:text="WIFI RSSI" />-->
+
+        <Button
+            android:id="@+id/bt_waiting_bus_cancel_waiting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_color_red"
+            android:text="@string/cancel_waiting"
+            android:textSize="@dimen/subhead" />
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rl_shake"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:visibility="gone">-->
+    <!--&lt;!&ndash;摇一摇中心图片&ndash;&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:src="@mipmap/ic_launcher" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+    <!--&lt;!&ndash;顶部的横线和图片&ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:id="@+id/main_linear_top"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal|bottom"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_shake_top"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:src="@mipmap/shake_top" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_shake_top_line"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="5dp"-->
+    <!--android:background="@mipmap/shake_top_line" />-->
+    <!--</LinearLayout>-->
+
+    <!--&lt;!&ndash;底部的横线和图片&ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:id="@+id/main_linear_bottom"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal|bottom"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_shake_bottom_line"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="5dp"-->
+    <!--android:background="@mipmap/shake_bottom_line" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_shake_bottom"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:src="@mipmap/shake_bottom" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_pb"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:visibility="gone">-->
+
+    <!--<ProgressBar-->
+    <!--android:layout_width="20dp"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="正在刷新，请稍等...." />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

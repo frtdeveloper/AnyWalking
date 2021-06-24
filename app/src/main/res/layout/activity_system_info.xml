@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_margin">
+
+    <Switch
+        android:id="@+id/sw_system_factory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="工厂模式" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="1.可自动获取WIFI信息测试摇一摇\n2.可显示定位GPS信息" />
+
+    <Switch
+        android:id="@+id/sw_system_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button"
+        android:text="演示模式" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="1.可跳过约车流程直接进入候车页面" />
+
+    <Switch
+        android:id="@+id/sw_system_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button"
+        android:text="GPS测试模式" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="1.可自定义当前定位GPS" />
+
+    <Switch
+        android:id="@+id/sw_system_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button"
+        android:text="本地模式" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="1.局域网调试用" />
+
+</LinearLayout>

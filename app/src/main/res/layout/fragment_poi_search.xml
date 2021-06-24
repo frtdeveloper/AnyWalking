@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_login_bg"
+    android:orientation="vertical"
+    android:paddingTop="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_button"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:background="@drawable/bg_color_white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/half_button"
+                android:layout_height="@dimen/half_button"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:background="@drawable/ic_search_black_24dp" />
+
+            <EditText
+                android:id="@+id/et_poi_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/input_places_want_to_go"
+                android:maxLines="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_nearby_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:background="@drawable/bg_color_green"
+        android:text="@string/nearby_search"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subhead" />
+
+    <ListView
+        android:id="@+id/lv_poi_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+

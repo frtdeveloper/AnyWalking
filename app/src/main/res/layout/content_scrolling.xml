@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lenwotion.travel.activity.MainActivity"
+    tools:showIn="@layout/fragment_me">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_gradation"
+            android:orientation="horizontal"
+            android:padding="@dimen/standard_margin">
+
+            <ImageView
+                android:id="@+id/iv_account"
+                android:layout_width="@dimen/big_avatar"
+                android:layout_height="@dimen/big_avatar"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_msg"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/subhead" />
+
+                <TextView
+                    android:id="@+id/tv_me_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/half_padding"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/subhead" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_me_revise"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_item"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/sub_icon"
+                android:layout_height="@dimen/sub_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:src="@drawable/ic_lock_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:text="@string/revise_password"
+                android:textSize="@dimen/subhead" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_me_suggestion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_item"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/sub_icon"
+                android:layout_height="@dimen/sub_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:src="@drawable/ic_assignment_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:text="@string/suggestion"
+                android:textSize="@dimen/subhead" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_me_about"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_item"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/sub_icon"
+                android:layout_height="@dimen/sub_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:text="@string/about"
+                android:textSize="@dimen/subhead" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_me_logout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_item"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/sub_icon"
+                android:layout_height="@dimen/sub_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:src="@drawable/ic_exit_to_app_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:text="@string/logout"
+                android:textSize="@dimen/subhead" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

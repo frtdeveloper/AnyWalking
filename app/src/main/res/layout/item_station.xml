@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_remind"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/big_button"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:src="@drawable/ic_nature_people_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/standard_padding"
+        android:layout_toRightOf="@id/iv_station"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_station_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名称"
+            android:textSize="@dimen/subhead" />
+
+        <TextView
+            android:id="@+id/tv_station_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_padding"
+            android:text="距离：0米"
+            android:textSize="@dimen/body"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_set_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:text="@string/set_remind"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/subhead" />
+
+</RelativeLayout>

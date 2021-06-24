@@ -1,0 +1,63 @@
+<resources>
+    <!-- material design 标准值-->
+    <!-- 标准屏幕边缘间距值 (内容留白) -->
+    <dimen name="standard_margin">16dp</dimen>
+    <!-- 标准间距值 (屏幕边界与卡片间留白) -->
+    <dimen name="standard_padding">8dp</dimen>
+    <!-- 标准半间距值(用于图片字体间) -->
+    <dimen name="half_padding">4dp</dimen>
+    <!-- 标准边角弧度值 -->
+    <dimen name="corner">2dp</dimen>
+
+    <!-- 标准大字体显示值 -->
+    <dimen name="display">34sp</dimen>
+    <!-- 标准标题显示值 -->
+    <dimen name="headline">24sp</dimen>
+    <!-- 标准标签字体显示值(如bar) -->
+    <dimen name="title">20sp</dimen>
+    <!-- 标准小标签字体显示值(页面大多数标签文本) -->
+    <dimen name="subhead">16sp</dimen>
+    <!-- 标准文本字体显示值(文本，菜单，按钮等大多数) -->
+    <dimen name="body">14sp</dimen>
+    <!-- 标准文本小字体显示值 -->
+    <dimen name="caption">12sp</dimen>
+
+    <!-- 标准item高度(带有图标或者头像) -->
+    <dimen name="item">72dp</dimen>
+    <!-- 标准大文字item值(toolbar) -->
+    <dimen name="big_text_item">56dp</dimen>
+    <!-- 标准文字item值 -->
+    <dimen name="text_item">48dp</dimen>
+
+    <!-- 标准头像图标显示值 -->
+    <dimen name="avatar">40dp</dimen>
+    <!-- 标准button值 -->
+    <dimen name="button">48dp</dimen>
+    <!-- 标准半高button值 -->
+    <dimen name="half_button">24dp</dimen>
+    <!-- 标准平面button值 -->
+    <dimen name="surface_button">36dp</dimen>
+
+    <!-- 自定义显示值 -->
+    <!-- 自定义超大头像和图标显示值 -->
+    <dimen name="large_avatar">128dp</dimen>
+    <!-- 自定义大头像和图标显示值 -->
+    <dimen name="big_avatar">64dp</dimen>
+    <!-- 自定义大button值 -->
+    <dimen name="big_button">64dp</dimen>
+    <!-- 自定义小图标值 -->
+    <dimen name="sub_icon">32dp</dimen>
+    <!-- 自定义小item值 -->
+    <dimen name="sub_item_high">36dp</dimen>
+    <!-- 自定义右侧小箭头宽高值 -->
+    <dimen name="small_arrow">16dp</dimen>
+    <!-- 自定义大item高度(带有图标或者头像) -->
+    <dimen name="big_item">96dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--<dimen name="app_bar_height">180dp</dimen>-->
+    <!--<dimen name="fab_margin">16dp</dimen>-->
+    <!--<dimen name="text_margin">16dp</dimen>-->
+</resources>

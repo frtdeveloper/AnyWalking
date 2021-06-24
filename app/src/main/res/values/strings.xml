@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">引路人</string>
+    <!--<string name="__leak_canary_display_activity_label">引路人泄漏</string>-->
+
+    <string name="agreement_title">私隐保护提示</string>
+    <string name="agreement_body">我们深知个人信息对您的重要性，我们依据最新的监管要求，
+        更新了用户注册及使用App隐私协议，尽力保护您的个人信息安全。</string>
+    <string name="agreement">用户注册及使用App隐私协议</string>
+    <string name="privacy_agreement">隐私协议</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+
+    <string name="agreement_text">用户注册及使用App隐私协议\n\n
+    在此特别提醒您（用户）在注册成为用户之前，请认真阅读本《用户注册及使用App隐私协议》
+        （以下简称“协议”），确保您充分理解本协议中各条款。请您审慎阅读并选择接受或不接受本协议。
+        除非您接受本协议所有条款，否则您无权注册、登录或使用本协议所涉服务。
+        您的注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。
+        本协议约定江西善行智能设备制造有限公司（以下简称“善行智能”）
+        与用户之间关于善行智能软件服务（以下简称“服务”）的权利义务。
+        用户，是指注册、登录、使用本服务的个人或组织。
+        本协议可由善行智能随时更新，更新后的协议条款一旦公布即代替原来的协议条款，恕不再另行通知，
+        用户可在本App中查阅最新版协议条款。在修改协议条款后，如果用户不接受修改后的条款，
+        请立即停止使用善行智能提供的服务，用户继续使用善行智能提供的服务将被视为接受修改后的协议。\n
+    一、账号注册\n
+    1、用户在使用本服务前需要注册一个善行智能App账号。
+        善行智能App账号应当使用手机号码绑定注册，
+        请用户使用尚未与善行智能App账号绑定的手机号码，
+        以及未被善行智能根据本协议封禁的手机号码注册善行智能App账号。
+        善行智能可以根据用户需求或产品需要对账号注册和绑定的方式进行变更，而无须事先通知用户。\n
+    2、鉴于善行智能App账号的绑定注册方式，
+        您同意善行智能在注册时将允许您的手机号码及手机设备识别码等信息用于注册。\n
+    3、在用户注册及使用本服务时，
+        善行智能需要搜集能识别用户身份的个人信息以便善行智能可以在必要时联系用户，
+        或为用户提供更好的使用体验。善行智能搜集的信息包括但不限于用户的姓名、地址；
+        善行智能同意对这些信息的使用将受限于第三条用户个人隐私信息保护的约束。\n
+    二、用户个人隐私信息保护\n
+    1、如果善行智能发现或收到他人举报或投诉用户违反本协议约定的，
+        善行智能有权不经通知随时对相关内容，包括但不限于用户资料、发布记录进行审查、删除，
+        并视情节轻重对违规账号处以包括但不限于警告、账号封禁、设备封禁、功能封禁的处罚，
+        且通知用户处理结果。\n
+    2、因违反用户协议被封禁的用户，可以自行与善行智能联系。
+        其中，被实施功能封禁的用户会在封禁期届满后自动恢复被封禁功能。
+        被封禁用户可提交申诉，善行智能将对申诉进行审查，并自行合理判断决定是否变更处罚措施。\n
+    3、用户理解并同意，善行智能有权依合理判断对违反有关法律法规或本协议规定的行为进行处罚，
+        对违法违规的任何用户采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等，
+        用户应承担由此而产生的一切法律责任。\n
+    4、用户理解并同意，因用户违反本协议约定，导致或产生的任何第三方主张的任何索赔、要求或损失，
+        包括合理的律师费，用户应当赔偿善行智能与合作公司、关联公司，并使之免受损害。\n
+    三、用户发布内容规范\n
+    1、本条所述内容是指用户使用善行智能App的过程中所制作、上载、复制、发布、传播的任何内容，
+        包括但不限于账号头像、名称、用户说明等注册信息及认证资料，或文字、语音、图片、视频、
+        图文等发送、回复或自动回复消息和相关链接页面，以及其他使用账号或本服务所产生的内容。\n
+    2、用户不得利用善行智能App账号或本服务制作、上传、复制、发布、传播如下法律、
+        法规和政策禁止的内容：\n
+    (1) 反对宪法所确定的基本原则的；\n
+    (2) 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\n
+    (3) 损害国家荣誉和利益的；\n
+    (4) 煽动民族仇恨、民族歧视，破坏民族团结的；\n
+    (5) 破坏国家宗教政策，宣扬邪教和封建迷信的；\n
+    (6) 散布谣言，扰乱社会秩序，破坏社会稳定的；\n
+    (7) 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\n
+    (8) 侮辱或者诽谤他人，侵害他人合法权益的；\n
+    (9) 含有法律、行政法规禁止的其他内容的信息。\n
+    3、用户不得利用善行智能App账号或本服务制作、上载、复制、发布、
+        传播如下干扰善行智能App正常运营，以及侵犯其他用户或第三方合法权益的内容：\n
+    (1) 含有任何性或性暗示的；\n
+    (2) 含有辱骂、恐吓、威胁内容的；\n
+    (3) 含有骚扰、垃圾广告、恶意信息、诱骗信息的；\n
+    (4) 涉及他人隐私、个人信息或资料的；\n
+    (5) 侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的；\n
+    (6) 含有其他干扰本服务正常运营和侵犯其他用户或第三方合法权益内容的信息。\n
+    四、使用规则\n
+    1、用户在本服务中或通过本服务所传送、发布的任何内容并不反映或代表，
+        也不得被视为反映或代表善行智能的观点、立场或政策，善行智能对此不承担任何责任。\n
+    2、用户不得利用善行智能App账号或本服务进行如下行为：\n
+    (1) 提交、发布虚假信息，或盗用他人头像或资料，冒充、利用他人名义的；\n
+    (2) 强制、诱导其他用户关注、点击链接页面或分享信息的；\n
+    (3) 虚构事实、隐瞒真相以误导、欺骗他人的；\n
+    (4) 利用技术手段批量建立虚假账号的；\n
+    (5) 利用善行智能App账号或本服务从事任何违法犯罪活动的；\n
+    (6) 制作、发布与以上行为相关的方法、工具，或对此类方法、工具进行运营或传播，
+        无论这些行为是否为商业目的；\n
+    (7) 其他违反法律法规规定、侵犯其他用户合法权益、
+        干扰善行智能App正常运营或善行智能未明示授权的行为。\n
+    3、用户须对利用善行智能App账号或本服务传送信息的真实性、合法性、无害性、准确性、
+        有效性等全权负责，与用户所传播的信息相关的任何法律责任由用户自行承担，
+        与善行智能无关。如因此给善行智能或第三方造成损害的，用户应当依法予以赔偿。\n
+    4、善行智能提供的服务中可能包括广告，用户同意在使用过程中显示善行智能和第三方供应商、
+        合作伙伴提供的广告。除法律法规明确规定外，用户应自行对依该广告信息进行的交易负责，
+        对用户因依该广告信息进行的交易或前述广告商提供的内容而遭受的损失或损害，
+        善行智能不承担任何责任。\n
+    五、其他\n
+    1、善行智能郑重提醒用户注意本协议中免除善行智能责任和限制用户权利的条款，
+        请用户仔细阅读，自主考虑风险。未成年人应在法定监护人的陪同下阅读本协议。\n
+    2、本协议的效力、解释及纠纷的解决，适用于中华人民共和国法律。
+        若用户和善行智能之间发生任何纠纷或争议，首先应友好协商解决，协商不成的，
+        用户同意将纠纷或争议提交善行智能住所地有管辖权的人民法院管辖。\n
+    3、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。\n
+    4、本协议最终解释权归善行智能所有。
+</string>
+
+    <!-- login -->
+    <string name="phone_num">手机号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="please_login">请登录</string>
+    <string name="please_input_phone_num">请输入手机号</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="please_input_verify_code">请输入验证码</string>
+    <string name="register">注册</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="error_input">输入错误</string>
+    <string name="error_phone_num">手机号输入错误</string>
+    <string name="error_password">密码输入错误</string>
+    <string name="please_enter_at_least_6_password">请至少输入6位密码</string>
+    <string name="verify_code">验证码</string>
+    <string name="fetch_verify_code">获取验证码</string>
+    <string name="get_verify_second">%d秒后重新获取</string>
+    <string name="reset_password">重置密码</string>
+    <string name="error_verify_code">验证码输入错误</string>
+    <string name="register_success">注册成功</string>
+    <string name="login_success">登录成功</string>
+    <string name="query_user_info">查询用户信息</string>
+    <string name="verify_code_success">验证码发送成功</string>
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="reset_password_fail">重置密码失败</string>
+    <string name="verify_code_fail">验证码发送失败</string>
+    <string name="login_fail">登录失败</string>
+    <string name="user_info_save_error">用户信息保存错误</string>
+    <string name="query">查询</string>
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+    <string name="complete">完成</string>
+    <string name="http_error">网络异常，请稍后重试</string>
+    <string name="register_fail">注册失败</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="notify_title">提示</string>
+    <string name="notify_msg">当前应用缺少必要权限。\n \n 请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="permission_notify">请授权必要的权限保证应用正常运行，否则应用将无法运行</string>
+    <string name="anywalking_system">公交导盲系统</string>
+    <string name="user_info_error">用户信息错误，请重新登陆</string>
+
+    <!-- homepage -->
+    <string name="press_again_to_exit">再按一次退出程序</string>
+    <string name="by_bus">乘车</string>
+    <string name="search_bus">查车</string>
+    <string name="me">我的</string>
+    <!--<string name="arrive_reminder">提醒</string>-->
+    <string name="arrive_station">到站</string>
+    <string name="where_go">去哪儿</string>
+
+    <!-- by bus -->
+    <string name="wait_home_page">坐车主页</string>
+    <string name="i_want_by_bus">我要坐车</string>
+    <string name="my_location">我的位置</string>
+    <string name="waiting_bus">候车</string>
+    <string name="select_station">选择公交站台</string>
+    <string name="select_line">选择公交线路</string>
+    <string name="select_line_more">选择线路可多选</string>
+    <string name="wait_bus_arrive_station">等候公交到站</string>
+    <string name="wait_bus_state">候车状态提示</string>
+    <string name="query_distance">查询车辆距离</string>
+    <string name="cancel_waiting">取消候车</string>
+    <string name="start_by_bus">开始侯车</string>
+    <string name="no_location">无法获取定位</string>
+    <string name="no_station">未选择站台</string>
+    <string name="bus_station">公交站</string>
+    <string name="bus_arrive_station">车辆已进站</string>
+    <string name="bus_will_arrive_station">车辆即将进站</string>
+    <string name="confirm_cancel_wait_bus">是否确认退出候车</string>
+    <string name="continue_wait_bus">继续候车</string>
+    <string name="return_homepage">返回主页</string>
+    <string name="reelect_station">重选站台</string>
+
+    <string name="response_code_201">1 预约车辆失败，是否重新候车</string>
+    <string name="response_code_202">2 没有合适的车辆经过，是否重新候车</string>
+    <string name="response_code_203">3 此站台经过的公交车辆未安装公交导盲系统</string>
+    <string name="response_code_204">4 用户或系统异常</string>
+    <string name="response_code_205">5 没有合适的车辆经过，是否重新候车</string>
+
+    <string name="wait_code_201">1 用户远离站台，候车退出</string>
+    <string name="wait_code_202">2 车辆已出站，没有新的车辆分配，候车退出</string>
+    <string name="wait_code_203">3 用户等候太久，没有合适的车辆经过，候车退出</string>
+    <string name="wait_code_204">4 用户或系统异常，候车退出</string>
+
+    <!-- search bus -->
+    <string name="input_bus_line_search">请输入线路或者站点名称</string>
+    <string name="table_search_line_details">查询线路详情</string>
+    <string name="search_line">线路查询</string>
+    <string name="search_station">站台查询</string>
+    <string name="search_history">查询历史</string>
+    <string name="clear_history">清空历史记录</string>
+    <string name="search_recommend">精品软件推荐</string>
+    <string name="search_more">查看更多</string>
+    <string name="need_open_gps">当前应用需要打开定位功能</string>
+    <string name="gps_not_open">GPS没有打开</string>
+    <string name="can_not_find_station_info">查不到站台信息</string>
+    <string name="system_error">系统异常请重新操作</string>
+    <string name="please_select_line">请选择路线</string>
+    <string name="station_no_function">此站台经过的公交车辆未安装公交导盲系统</string>
+    <string name="far_from_station">距离站台太远，无法获取附近站台信息</string>
+    <string name="history">历史记录</string>
+    <string name="go_to">开往</string>
+    <string name="input_bus_station">请输入站台名称</string>
+    <string name="change_direction">切换开往方向</string>
+
+    <!-- me -->
+    <string name="account_msg">账号信息</string>
+    <string name="setting">设置</string>
+    <string name="version_update">版本更新</string>
+    <string name="get_back_password">找回密码</string>
+    <string name="revise_password">修改密码</string>
+    <string name="suggestion">建议</string>
+    <string name="input_suggestion">请输入您的建议</string>
+    <string name="please_enter_at_least_5_words">请至少输入5个字</string>
+    <string name="input_too_much">输入内容过多</string>
+    <string name="about">关于</string>
+    <string name="use_help">使用帮助</string>
+    <string name="commit">提交</string>
+    <string name="about_company_city">关于中国（定南）智能助残科技城</string>
+    <string name="about_company">关于善行智能</string>
+    <string name="copyright">善行智能 版权所有 \n Copyright © 2013-2020 Beneficences. \n All Rights Reserved.</string>
+    <string name="about_app">关于引路人</string>
+    <string name="logout">退出登录</string>
+    <string name="confirm_logout">是否确认退出登录</string>
+    <string name="is_already_the_latest_version">已经是最新版本</string>
+    <string name="download_new_version_without_wifi">发现新版本。检测到您当前并非使用WIFI网络，是否现在更新？</string>
+    <string name="downloading">正在下载</string>
+    <string name="is_download_app_new_version">已有新版本，是否更新</string>
+    <string name="downloading_app_new_version">正在后台下载最新版本，请稍候</string>
+    <string name="permission_application_failed">权限申请失败</string>
+    <string name="download_failed">下载失败</string>
+    <string name="commit_success">提交成功</string>
+
+    <string name="about_company_city_info">
+       2016年为响应落实《国务院关于加快发展康复辅助器具产业的若干意见》，善行智能与定南县政府联合投资兴建中国（定南）智能助残科技城项目。\n
+        项目总规划面积1100亩，一期占地109亩，建筑面积87100平方米，总投资10亿元。\n
+        善行集团旗下6家分公司涉及塑胶、模具、五金、喷涂、贴片、组装等，已具备一个完整智能康复辅助器具产业链，同时依托于科技城产业基础。\n
+        2017年12月赣州市确定成为全国12个国家康复辅助器具产业综合创新试点城市之一，欢迎有识之士入驻共筑康复辅具产业腾飞。
+    </string>
+
+    <string name="about_company_info">
+        江西善行智能设备制造有限公司是一家集研发、设计、生产、销售为一体的国家高新技术企业。\n
+        公司主营：各类智能康复辅助器具：如智能大小便护理机器人、智能康复护理床、小Q智能导盲眼镜、智慧引路人公交导盲系统，残疾人家庭无障碍改造、智慧养老院整体解决方案等。
+    </string>
+
+    <string name="about_app_info">
+        智慧引路人公交导盲系统是一套集合物联网技术、工业级WIFI信息传导技术、云后台服务、大数据算法技术为一体的导盲系统。\n
+        系统由车载发射机、云后台、导盲APP软件、运营维护四部份组成，能够以最佳的用户体验方式引导视障群体、老年人群体无障碍的搭乘公交车。\n
+        如：APP一键候车、精准的步行导航、公交车进站自动播报提醒，公交车的正反程计算、云后台数据管理、便捷的数据修改更新方式、项目实施后的使用数据统计分析、本地建设运营服务中心等等。\n
+        可以极大的方便盲人乘坐公交汽车出行，促进残疾人事业的长远发展，进一步营造和谐幸福的社会氛围。\n
+        目前该系统已覆盖广东省珠三角九大地市、赣州市、定南县、成都市等地。
+    </string>
+
+    <!-- remind -->
+    <string name="input_bus_line_remind">输入需要提醒的线路</string>
+    <string name="cancel_remind">取消提醒</string>
+    <string name="is_set_remind">已设置提醒</string>
+    <string name="set_remind">设置提醒</string>
+    <string name="set_remind_success">设置提醒成功</string>
+
+    <!-- navigation -->
+    <string name="poi_search">地点搜索</string>
+    <string name="input_places_want_to_go">请输入你想去的地方</string>
+    <string name="search">搜索</string>
+    <string name="nearby_search">周边搜索</string>
+    <string name="no_search_result">对不起，没有搜索到相关数据！</string>
+    <string name="input_null">请输入搜索关键字</string>
+    <string name="walking_navigation">步行导航</string>
+    <string name="emulator_navigation_planning">模拟导航列表</string>
+    <string name="gps_navigation">实时导航</string>
+    <string name="emulator_navigation">模拟导航</string>
+    <string name="navigation_type">导航类型选择</string>
+    <string name="will_navigation_to">即将为你导航到</string>
+    <string name="choose_navigation_type">请选择你所需要的导航类型</string>
+    <string name="please_use_simulation_navigation">请先使用模拟导航</string>
+    <string name="walk_distance_too_long">步行路程过长，建议采用其他出行方式</string>
+
+</resources>

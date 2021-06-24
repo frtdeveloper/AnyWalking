@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/standard_margin">
+
+    <TextView
+        android:id="@+id/tv_wait_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/subhead" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_state_reelect_station"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_color_blue"
+            android:text="@string/reelect_station"
+            android:textSize="@dimen/subhead" />
+
+        <!--<Button-->
+        <!--android:id="@+id/bt_state_reelect_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/standard_margin"-->
+        <!--android:background="@color/blue"-->
+        <!--android:text="@string/reelect_line"-->
+        <!--android:textSize="@dimen/subhead" />-->
+
+        <Button
+            android:id="@+id/bt_state_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="@drawable/bg_color_cyan"
+            android:text="@string/return_homepage"
+            android:textSize="@dimen/subhead" />
+    </LinearLayout>
+
+</RelativeLayout>

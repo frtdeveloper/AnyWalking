@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_poi_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/standard_margin"
+        android:paddingRight="@dimen/standard_margin">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_place_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_poi_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="@dimen/standard_padding"
+            android:text="null"
+            android:textSize="@dimen/subhead" />
+
+        <TextView
+            android:id="@+id/tv_poi_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="" />
+
+    </LinearLayout>
+
+</LinearLayout>
