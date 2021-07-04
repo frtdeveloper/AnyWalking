@@ -3,71 +3,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.lenwotion.travel">
 
-    <uses-feature android:name="android.hardware.wifi" />
-    <!-- 允许访问摄像头进行拍照 -->
-    <!--<uses-permission android:name="android.permission.CAMERA" />-->
+    <uses-feature android:name="android.hardware.wifi" /> <!-- 允许访问摄像头进行拍照 -->
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
     <!-- 访问网络连接，可能产生GPRS流量 -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <!-- 允许振动 -->
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <!-- 允许访问闪光灯 -->
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <!-- 访问电话状态，获取用户设备的IMEI，通过IMEI和mac来唯一的标识用户。 -->
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <!-- 读取浏览器收藏夹和历史记录 -->
-    <!--<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />-->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 允许振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 允许访问闪光灯 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- 访问电话状态，获取用户设备的IMEI，通过IMEI和mac来唯一的标识用户。 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 读取浏览器收藏夹和历史记录 -->
+    <!-- <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" /> -->
     <!-- 允许程序写入外部存储，如SD卡上写文件 -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <!-- 读取设备外部存储空间 -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <!-- 改变WiFi状态 -->
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <!-- 改变WiFi多播状态 -->
-    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-    <!-- 获取当前WiFi接入的状态以及WLAN热点的信息，获取用户设备的mac地址 -->
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!-- 读取短信内容 -->
-    <uses-permission android:name="android.permission.READ_SMS" />
-    <!-- 发送短信 -->
-    <!--<uses-permission android:name="android.permission.SEND_SMS" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 读取设备外部存储空间 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 改变WiFi状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 改变WiFi多播状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" /> <!-- 获取当前WiFi接入的状态以及WLAN热点的信息，获取用户设备的mac地址 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 读取短信内容 -->
+    <uses-permission android:name="android.permission.READ_SMS" /> <!-- 发送短信 -->
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
     <!-- 接收短信 -->
-    <!--<uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+    <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
     <!-- 获取网络信息状态，如当前的网络连接是否有效，检测联网方式，区分用户设备使用的是2G、3G或是WiFi -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- 可以使用DownloadProvider下载 -->
-    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
-    <!-- 在SDCard中创建与删除文件权限 -->
-    <!--<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 可以使用DownloadProvider下载 -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" /> <!-- 在SDCard中创建与删除文件权限 -->
+    <!-- <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> -->
     <!-- 改变网络状态如是否能联网 -->
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <!-- 允许读写系统设置项 -->
-    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 允许读写系统设置项 -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SETTINGS" /> -->
     <!-- 允许程序开机自动运行 -->
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <!-- 允许程序从非系统拨号器里输入电话号码 -->
-    <!--<uses-permission android:name="android.permission.CALL_PHONE" />-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 允许程序从非系统拨号器里输入电话号码 -->
+    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
     <!-- 允许程序录制音频 -->
-    <!--<uses-permission android:name="android.permission.RECORD_AUDIO" />-->
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
     <!-- 允许程序读取联系人 -->
-    <!--<uses-permission android:name="android.permission.READ_CONTACTS" />-->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
     <!-- 允许程序开机自启动 -->
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <!-- 请求安装未知应用来源的权限 -->
-    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-    <!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <!--<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />-->
-
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 请求安装未知应用来源的权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" /> -->
     <!-- 定位包、导航包需要的额外权限（注：基础权限也需要) -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-
-    <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 用于申请获取蓝牙信息进行室内定位 -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
@@ -80,6 +56,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="d4678684cf9907085b84bdae0bc3fd2b" />
@@ -99,41 +76,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".test.TestGPSActivity" />
-        <activity android:name=".test.TestShakeActivity" />
-
-        <!-- login -->
+        <activity android:name=".test.TestShakeActivity" /> <!-- login -->
         <activity
             android:name=".activity.login.LoginActivity"
             android:label="@string/login" />
         <activity
             android:name=".activity.login.RegisterActivity"
-            android:label="@string/app_name" />
-
-        <!-- home -->
+            android:label="@string/app_name" /> <!-- home -->
         <activity
             android:name=".activity.MainActivity"
-            android:label="@string/app_name" />
-
-        <!-- by bus -->
+            android:label="@string/app_name" /> <!-- by bus -->
         <activity
             android:name=".activity.bybus.SelectStationActivity"
             android:label="@string/select_station" />
         <activity
             android:name=".activity.bybus.SelectLineActivity"
-            android:label="@string/select_line" />
-        <!--<activity-->
-        <!--android:name=".activity.bybus.WaitingBusActivity"-->
-        <!--android:label="@string/wait_bus_arrive_station" />-->
+            android:label="@string/select_line" /> <!-- <activity -->
+        <!-- android:name=".activity.bybus.WaitingBusActivity" -->
+        <!-- android:label="@string/wait_bus_arrive_station" /> -->
         <activity
             android:name=".activity.bybus.WaitBusActivity"
             android:label="@string/wait_bus_arrive_station" />
         <activity
             android:name=".activity.bybus.WaitBusStateActivity"
-            android:label="@string/wait_bus_state" />
-
-        <!-- search bus -->
+            android:label="@string/wait_bus_state" /> <!-- search bus -->
         <activity
             android:name=".activity.searchbus.SearchLineActivity"
             android:label="@string/search_line" />
@@ -142,15 +109,13 @@
             android:label="@string/search_station" />
         <activity
             android:name=".activity.searchbus.SearchLineInfoActivity"
-            android:label="@string/table_search_line_details" />
-        <!--<activity-->
-        <!--android:name=".activity.searchbus.SoftwareRecommendActivity"-->
-        <!--android:label="@string/search_recommend" />-->
-
+            android:label="@string/table_search_line_details" /> <!-- <activity -->
+        <!-- android:name=".activity.searchbus.SoftwareRecommendActivity" -->
+        <!-- android:label="@string/search_recommend" /> -->
         <!-- me -->
-        <!--<activity-->
-        <!--android:name=".activity.me.RevisePasswordActivity"-->
-        <!--android:label="@string/revise_password" />-->
+        <!-- <activity -->
+        <!-- android:name=".activity.me.RevisePasswordActivity" -->
+        <!-- android:label="@string/revise_password" /> -->
         <activity
             android:name=".activity.me.AboutActivity"
             android:label="@string/about" />
@@ -165,12 +130,10 @@
             android:label="@string/app_name" />
         <activity
             android:name=".activity.me.SystemSettingActivity"
-            android:label="@string/setting" />
-
-        <!-- navigation -->
-        <!--<activity-->
-        <!--android:name=".activity.navigation.PoiSearchActivity"-->
-        <!--android:label="@string/poi_search" />-->
+            android:label="@string/setting" /> <!-- navigation -->
+        <!-- <activity -->
+        <!-- android:name=".activity.navigation.PoiSearchActivity" -->
+        <!-- android:label="@string/poi_search" /> -->
         <activity
             android:name=".activity.navigation.NearbySearchActivity"
             android:label="@string/nearby_search" />
@@ -185,13 +148,18 @@
             android:name=".activity.navigation.NavigationTypeActivity"
             android:label="@string/navigation_type" />
 
-        <activity android:name=".test.TestWifiActivity" />
+        <activity
+            android:name=".activity.bybus.MutilWaitBusActivity"
+            android:label="@string/wait_bus_arrive_station">
+            <intent-filter>
+                <action android:name="com.lenwotion.travel.activity.bybus.START_M_WAITE_BUSES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
 
-        <!-- service -->
+        <activity android:name=".test.TestWifiActivity" /> <!-- service -->
         <!-- 高德 -->
-        <service android:name="com.amap.api.location.APSService" />
-
-        <!-- 监听apk下载完成 -->
+        <service android:name="com.amap.api.location.APSService" /> <!-- 监听apk下载完成 -->
         <receiver android:name=".receiver.ApkInstallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
