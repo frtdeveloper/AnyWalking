@@ -1,5 +1,8 @@
 package com.lenwotion.travel.activity.bybus;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,10 +59,22 @@ public class MutilWaitBusActivity extends BaseActivity
 
     }
 
-    private static String MY_INTENT = "com.lenwotion.travel.activity.bybus.START_M_WAITE_BUSES";
+    @Override
+    public void onClick(View v) {
+        super.onClick(v);
 
+    }
+
+
+
+    private static String MY_INTENT = "com.lenwotion.travel.activity.bybus.START_M_WAIT_BUSES";
     private static ArrayList<AffirmWaitInfoBean> WAITING_BUSES_INFO;
 
+    /**
+     * 设置需要等待的线路信息
+     * @param wait_bean_info
+     * @param need_clean
+     */
     public static void addWaittingBuses(AffirmWaitInfoBean wait_bean_info, boolean need_clean) {
         if(null == WAITING_BUSES_INFO) {
             WAITING_BUSES_INFO = new ArrayList<>();
@@ -74,6 +89,19 @@ public class MutilWaitBusActivity extends BaseActivity
         WAITING_BUSES_INFO.add(wait_bean_info);
     }
 
+    /**
+     * 启动这个Activity
+     * @param ctx
+     * @param need_finish
+     */
+    public static void startMySelf(Activity ctx, boolean need_finish){
+        Intent start_intent = new Intent();
+        start_intent.setAction(MY_INTENT);
+        start_intent.addCategory(Intent.CATEGORY_DEFAULT);
+        ctx.startActivity(start_intent);
 
+        if (need_finish)
+            ctx.finish();
+    }
 
 }

@@ -57,6 +57,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
 
+
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="d4678684cf9907085b84bdae0bc3fd2b" />
@@ -152,8 +153,18 @@
             android:name=".activity.bybus.MutilWaitBusActivity"
             android:label="@string/wait_bus_arrive_station">
             <intent-filter>
-                <action android:name="com.lenwotion.travel.activity.bybus.START_M_WAITE_BUSES"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.lenwotion.travel.activity.bybus.START_M_WAIT_BUSES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.bybus.WaitBusDetailActivity">
+            <intent-filter>
+                <action android:name="com.lenwotion.travel.activity.bybus.START_WAIT_BUS_DETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
