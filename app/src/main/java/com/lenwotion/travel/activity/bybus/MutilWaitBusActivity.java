@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Handler;
+import android.os.Message;
 import android.os.SystemClock;
 import android.os.Vibrator;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 
 import com.lenwotion.travel.R;
 import com.lenwotion.travel.activity.BaseActivity;
@@ -35,6 +37,10 @@ public class MutilWaitBusActivity extends BaseActivity
                                   implements INettyMessageCallback,
                                              WaitingBusContract.ShowWaitResultView {
 
+    private static final int MESSAGE_BEGIN_HANDLE = 0;
+    private static final int MESSAGE_ONE_BUS_HANDLE = MESSAGE_BEGIN_HANDLE + 1;
+    private static final int MESSAGE_END_HANDLE = MESSAGE_ONE_BUS_HANDLE + 1;
+
 
     private WifiAdmin mWifiAdmin;
     private ShakeManager mShakeManager;
@@ -45,13 +51,33 @@ public class MutilWaitBusActivity extends BaseActivity
 
     private Button mCancelWaitingBt;
     private ImageView mDeviceConnectedIv;
+    private ListView  mWaitBusesListView;
 
-    private ArrayList<AffirmWaitInfoBean> mHandleBues;
+    private ArrayList<AffirmWaitInfoBean> mHandleBuesInfoBean;
 
     private boolean mIsActivityRunning;
     private boolean mIsNettyConnected;
     boolean mIsNettyConnecting;
     boolean mIsNotifyBusArrive;
+
+    private Handler mBusUpdateHandler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch (msg.what){
+                case MESSAGE_BEGIN_HANDLE:
+                    break;
+                case MESSAGE_ONE_BUS_HANDLE:
+                    break;
+                case MESSAGE_END_HANDLE:
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -131,7 +157,7 @@ public class MutilWaitBusActivity extends BaseActivity
     private void initView() {
         mCancelWaitingBt = findViewById(R.id.m_wait_bus_connected_btn);
         mDeviceConnectedIv = findViewById(R.id.m_wait_bus_connected_iv);
-
+        mWaitBusesListView = findViewById(R.id.m_wait_bus_list);
     }
 
     private void initListener() {
@@ -201,6 +227,8 @@ public class MutilWaitBusActivity extends BaseActivity
             });
         }
     }
+
+
 
     private static String MY_INTENT = "com.lenwotion.travel.activity.bybus.START_M_WAIT_BUSES";
     private static ArrayList<AffirmWaitInfoBean> WAITING_BUSES_INFO;
