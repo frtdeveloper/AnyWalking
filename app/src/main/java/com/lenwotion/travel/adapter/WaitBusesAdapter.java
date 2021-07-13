@@ -51,9 +51,31 @@ public class WaitBusesAdapter extends BaseAdapter {
             convertView = LayoutInflater.from(mContext).inflate(R.layout.wait_bus_info_layout, parent, false);
             viewHoler = new ViewHoler();
             viewHoler.mLineNameTV = convertView.findViewById(R.id.bus_info_linename_tv);
+            viewHoler.mLineNameTV.setText(current_bean.getLineName());
+
             viewHoler.mStateCountTV = convertView.findViewById(R.id.bus_info_statecount_tv);
-            viewHoler.mCurrentStopTV = convertView.findViewById(R.id.bus_info_currentstop_tv);
-            viewHoler.mNextStopTV = convertView.findViewById(R.id.bus_info_nextstop_tv);
+            String frontStations = "距离 " + current_bean.getFrontStations() + " 站";
+            viewHoler.mStateCountTV.setText(frontStations);
+
+            viewHoler.mCurrentStopTV = convertView.findViewById(R.id.bus_info_current_stop_tv);
+            String current_stop = "当前到达: " + current_bean.getCurrentStation();
+            viewHoler.mCurrentStopTV.setText(current_stop);
+
+            viewHoler.mNextStopTV = convertView.findViewById(R.id.bus_info_distance_tv);
+            String current_distance;
+            if (current_bean.getFrontStations() > 0) {
+                current_distance = "距离你还有 " + current_bean.getFrontStations() + " 个站";
+            } else if (current_bean.getFrontStations() == 0) {
+                current_distance = "车辆已到站";
+            } else if (current_bean.getFrontStations() == -999) {
+                current_distance = "暂无到站信息";
+            } else if (current_bean.getFrontStations() < 0) {
+                current_distance = "车辆已过站，系统将重新预约车辆";
+            } else {
+                current_distance = "暂无到站信息";
+            }
+            viewHoler.mCurrentStopTV.setText(current_distance);
+
             convertView.setTag(viewHoler);
         } else {
             viewHoler = (ViewHoler) convertView.getTag();
