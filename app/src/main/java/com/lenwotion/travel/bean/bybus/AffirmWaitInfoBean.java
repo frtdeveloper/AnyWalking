@@ -164,4 +164,18 @@ public class AffirmWaitInfoBean implements Parcelable {
         }
     };
 
+    @Override
+    public String toString() {
+        return "AffirmWaitInfoBean{" +
+                "operateCode=" + operateCode +
+                ", imei='" + imei + '\'' +
+                ", ssid='" + ssid + '\'' +
+                ", password='" + password + '\'' +
+                ", distance=" + distance +
+                ", lineName='" + lineName + '\'' +
+                ", plateNumber='" + plateNumber + '\'' +
+                ", currentStation='" + currentStation + '\'' +
+                ", frontStations=" + frontStations +
+                '}';
+    }
 }
